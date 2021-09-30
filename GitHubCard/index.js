@@ -120,7 +120,7 @@ function githubUsercardMaker({ avatar_url, name, login, location, html_url, foll
   userUsername.textContent = `Username: ${login}`
   userLocation.textContent = `Location: ${location}`
   profileLink.href = html_url
-  profileLink.textContent = html_url
+  profileLink.textContent = `Profile: ${html_url}`
   userFollowers.textContent = `Followers: ${followers}`
   userFollowing.textContent = `Following: ${following}`
   userBio.textContent = `Bio: ${bio}`
